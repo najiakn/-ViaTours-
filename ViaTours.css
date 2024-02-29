@@ -1,106 +1,94 @@
+header{
+    display: flex;
+    background-color:#fdf0ea;
+   
+
+}
 body{
-    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    display: flex;
+    list-style: none;
     
+    margin-left: 0px;
 }
 li{
-    list-style: none;
-display: inline;
-
-margin-left: 20px;
-
+    margin: 10px;
 }
-
-header{
-    background-color: #FEF7F4;
-    width: 1300px;
-    margin-left: -30px;
-    
+button{
+    margin: 23px;
 }
-nav{
-    margin: 0px;
-    margin-top: -18px;
-  
-    padding: 10px;
+.logo{
+    margin: 10px;
 }
-#logId{
-    background-color: #EB662B;
-    padding: 6px;
-    color:white;
+.log_btn{
+    background-color:#eb662b ;
+    border: none;
+    padding: 3px;
+    width:60px;
+    color: white;
+    font-weight: 100;
 }
-footer{
-    width: 1600px;
-    background-color: #FEF7F4;
-    margin-left: -10px;
-
-
+.contenet{
+    display: flex;
 }
-#p1{
-   color: #EB662B;
-   padding: 20px;
-}
-
-.grandImg{
-    
-    width: 500px;
-    height: 500px;
-   
-    
-    margin-top: 10px;
-    
-    
-    
-}
-.text1{
-   width: 55%;
-    
-    margin-left: 20px;
-  
+.firstPara{
+    width: 45%;
+    margin: 10px;
+    margin-left: 40px;
     
 }
 #para1{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
-    padding-left: 100px;
-    margin-top: -80px;
-    
+    padding-top: 40px;
+    padding-left: 60px;
 }
 #para2{
-    padding-left: 100px;
-    font-size: 15px;
-    margin-top: -30px;
-   
+    padding-left: 60px;
+    margin-top: -10px;
+  
 }
-#para3{
-    margin-left:100px ;
-    background-color: #EB662B;
-    width: 18%;
-    padding: 5px;
+#explorBtn{
+    margin-left:60px;
+    width: 120px;
+    height: 30px;
+    background-color: #eb662b;
     color: white;
-    font-weight:400;
+    border: none;
+    margin-top:-10px ;
 }
-#para4{
-    margin-left: 80px;
-    margin-top: -100px;
-    font-weight:bolder;
-    font-size: 18px;
+.prqDiv{
+    margin-left: 100px;
+    font-size: 20px;
+    font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
-#forms tr {
-    width: 100%;
-}
-#forms  td{
- width: 25%;
- 
-}
-.tab2{
-    margin: 30px;
+.forms{
+    display: flex;
     margin-left: 90px;
-
+    font-size: 14px;
+    padding-left: 0px;
+    font-weight: 100;
 }
-.pre2{
-    padding: 50px;
+.fomsPara1{
+    padding-right: 20px;
 }
-.forms_title{
-    font-weight: bold;
-    padding-top: 30px;
+.fomsPara3{
+    padding-right: 20px;
+}
+.fomsPara2{
+    padding-right: 20px;
+}
+footer{
+    background-color: #fdf0ea;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.foot{
+    padding: 30px;
+}
+main{
+    padding-bottom: 30px;
 }
